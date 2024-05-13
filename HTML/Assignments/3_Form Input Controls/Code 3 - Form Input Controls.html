@@ -1,0 +1,83 @@
+<!-- 3.Write a program to show all form input controls in HTML5 as given below ? -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Formatting Tags and Meta Tags</title>
+</head>
+<body>
+
+  <h1>Form Input Controls Example</h1>
+  
+  <form>
+
+  <label for="name">Name:</label>
+  <input type="text" placeholder="Enter your name" id="name">
+  
+  <label for="password">Password:</label>
+  <input type="password" placeholder="Enter your password" id="password">
+
+  <label for="email">Email:</label>
+  <input type="email" placeholder="Enter your email" id="email">
+  <br>
+  <label for="age">Age:</label>
+  <input type="text" placeholder="Enter your age" id="age" value="18">
+
+  <label for="rating">Rating:</label>
+  <input type="range" id="rating" min="0" max="50">
+
+  <label for="dob">Date of Birth:</label>
+  <input type="date" id="dob" value="2000-01-01">
+  <br>
+  <label for="time">Time:</label>
+  <input type="time" id="time" value="12:00">
+
+  <label for="image">Image:</label>
+  <input type="image" style="background-color:#D3D3D3;" alt="" id="image" width="150" height="50">
+
+  <br><br>
+
+  <label for="week">Week:</label>
+  <input type="week" id="week"> <br><br>
+
+  <label for="month">Month:</label>
+  <input type="month" id="month"> <br><br>
+
+  <label for="dtl">Datetime-Local:</label>
+  <input type="datetime-local" id="dtl"> <br><br>
+
+  <label for="url">URL:</label>
+  <input type="url" id="url"> <br><br>
+
+  <label for="search">Search:</label>
+  <input type="search" id="search"> <br><br>
+
+  <p>Gender:</p>
+  <input type="radio" id="male" name="gender">
+  <label for="male">Male</label>
+
+  <input type="radio" id="female" name="gender">
+  <label for="female">Female</label>
+
+  <p>Interest:</p>
+  <input type="checkbox" id="reading" name="reading">
+  <label for="reading">Reading</label>
+  <input type="checkbox" id="sport" name="sport">
+  <label for="sport">Sports</label>
+
+  <label for="country">Country:</label>
+  <select name="country" id="country">
+    <option value="United States">United States</option>
+    <option value="India">India</option>
+    <option value="Palestine">Palestine</option>
+    <option value="Egypt">Egypt</option>
+  </select> <br>
+
+  <label for="message">Message:</label> <br>
+    <textarea id="message" rows="4" cols="40"></textarea>
+  <input type="submit" value="submit">
+
+</form>
+
+</body>
+</html>
